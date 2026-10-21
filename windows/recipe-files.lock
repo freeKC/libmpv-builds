@@ -1,0 +1,14 @@
+# The two files of the Windows build recipe that set the options of FFmpeg and mpv (media_kit's video configuration,
+# without the TLS patch, see the header of each file), downloaded by fetch_recipe_files.py and checked by their SHA-256
+# before they are copied over packages/ of the recipe.
+#
+# They are modified copies of packages/ffmpeg.cmake and packages/mpv.cmake of shinchiro/mpv-winbuild-cmake (through
+# Predidit/libmpv-win32-video-cmake), a repository without a license file. Until its author says under which license
+# they may be reused (https://github.com/shinchiro/mpv-winbuild-cmake/issues/855), this repository does not copy them:
+# it takes them from the commit of freeKC/Immuch360 where they were written, as that repository already publishes them.
+# The source archive of each release still holds them, with the rest of the recipe, as the LGPL asks for the scripts
+# used to build the library.
+#
+# file  url  sha256
+ffmpeg.cmake https://raw.githubusercontent.com/freeKC/Immuch360/a0af38a54c78de24601c31ee7979895c0a8c9b6d/.github/desktop/libmpv/ffmpeg.cmake 9256f8fc3e0f9b9e8bd4be9255caf79fa02f250fc265a7553ec60977b3a44779
+mpv.cmake https://raw.githubusercontent.com/freeKC/Immuch360/a0af38a54c78de24601c31ee7979895c0a8c9b6d/.github/desktop/libmpv/mpv.cmake 61c33ce4e5ba7363ae0ccf23d86daf35c5f2cd8844af4d6b84c23f4661c066a8
