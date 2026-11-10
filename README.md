@@ -1,5 +1,7 @@
 # libmpv-builds
 
+**This repository is archived.** The recipe and its releases continue at [immuch360/libmpv-builds](https://github.com/immuch360/libmpv-builds), built the same way from pinned sources. Its latest releases are [libmpv-windows-20261110-1](https://github.com/immuch360/libmpv-builds/releases/tag/libmpv-windows-20261110-1) for Windows and [libmpv-macos-20261110-1](https://github.com/immuch360/libmpv-builds/releases/tag/libmpv-macos-20261110-1) for macOS. The release 20261021-1 of this repository stays available.
+
 libmpv (mpv with FFmpeg) for Windows and macOS in the configuration of [media_kit](https://github.com/media-kit/media-kit)'s
 video packages, built in GitHub Actions from pinned sources and published with their corresponding source.
 
